@@ -1,0 +1,26 @@
+:root {
+  /* Paleta cred.it */
+  --ifm-color-primary: #f47831;        /* Laranja principal */
+  --ifm-color-primary-dark: #dc6728;
+  --ifm-color-primary-darker: #b9531f;
+  --ifm-color-primary-darkest: #8a3e17;
+  --ifm-color-primary-light: #f68a4e;
+  --ifm-color-primary-lighter: #f79d6a;
+  --ifm-color-primary-lightest: #fabd9a;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(20, 10, 5, 0.08); /* preto translúcido */
+}
+
+/* Dark mode */
+[data-theme='dark'] {
+  --ifm-color-primary: #f8c02b;        /* Amarelo vibrante no escuro */
+  --ifm-color-primary-dark: #d6a223;
+  --ifm-color-primary-darker: #b1851d;
+  --ifm-color-primary-darkest: #8a6716;
+  --ifm-color-primary-light: #ffd24f;
+  --ifm-color-primary-lighter: #ffe078;
+  --ifm-color-primary-lightest: #fff0b0;
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.12); /* branco translúcido */
+}
